@@ -28,6 +28,9 @@ html {
 
 figcaption {
   position: absolute;
+  bottom: 1em;
+  left: 5.5em;
+  text-align: center;
 }
 
 figure:first-child {
