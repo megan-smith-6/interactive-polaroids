@@ -34,18 +34,22 @@ figcaption {
 }
 
 figure:first-child {
-  right: 20%;
-  top: 6.25em%;
+  left: 20%;
+  top: 6.25em;
   transform: rotate(-12deg);
   z-index: 1;
 }
 
 figure:nth-child(2) {
-  right: 50%;
-  top: 7.5em;
+  left: 20%;
+  top: 9em;
+  transform: rotate(3deg);
+  z-index: 2000;
 }
 
 figure:last-child {
   right: 55%;
   top: 10em;
+  transform: rotate(20deg);
+  z-index: 2;
 }
