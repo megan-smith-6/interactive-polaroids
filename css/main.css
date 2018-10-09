@@ -13,6 +13,7 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
+  transition: all 300ms linear;
 }
 
 .polaroid > img {
@@ -29,17 +30,19 @@ figcaption {
   position: absolute;
 }
 
-.polaroid:first-child {
-  right: 45%;
-  top: 25%;
+figure:first-child {
+  right: 20%;
+  top: 6.25em%;
+  transform: rotate(-12deg);
+  z-index: 1;
 }
 
-.polaroid:nth-child(2) {
+figure:nth-child(2) {
   right: 50%;
   top: 7.5em;
 }
 
-.polaroid:last-child {
+figure:last-child {
   right: 55%;
   top: 10em;
 }
