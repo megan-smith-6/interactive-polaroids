@@ -26,36 +26,36 @@ html {
   text-shadow: 1px 1px 3px #000;
 }
 
-figcaption {
-  position: absolute;
-  bottom: 10%;
-  left: 30%;
-  text-align: center;
-}
-
 figure:first-child {
+  top: 6.25em;
   left: 20%;
-  top: 10%;
   transform: rotate(-12deg);
   z-index: 1;
 }
 
 figure:nth-child(2) {
+  top: 9em;
   left: 30%;
-  top: 20%;
   transform: rotate(3deg);
-  z-index: 2000;
+  z-index: 2344;
 }
 
-figure:last-child {
-  left: 40%;
-  top: 15%;
+figure:nth-child(3) {
+  left: 10em;
+  top: 20%;
   transform: rotate(29deg);
   z-index: 2;
 }
 
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  left: 5.5em;
+  text-align: center;
+}
+
 .polaroid:hover {
-  z-index: 5000;
   transform: rotate(0deg);
-  box-shadow: 1px 1px 3px #fff;
+  z-index: 5435;
+  box-shadow: 2px 5px 10px #fff;
 }
